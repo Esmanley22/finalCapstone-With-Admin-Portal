@@ -1,0 +1,74 @@
+$darkLiver: rgba(84, 73, 75, 1);
+$isabelline: #A4C3B2;
+$etonBlue: #F6FFF8;
+$dingyDungeon: #6B9080;
+$flax: #CCE3DE;
+$black: black;
+$topbottom: #2d6a4f;
+
+ul{
+    list-style-type: none;
+}
+
+.bg{
+  background-image: url("https://images.unsplash.com/photo-1489379391348-c9f07b42b696?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+$theme-colors: (
+  "primary": $isabelline,
+  "secondary": $darkLiver,
+  "light": $etonBlue,
+  "dark": $dingyDungeon,
+  "black": $black,
+  "topbottom": $topbottom
+);
+// $white: $flax;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 700px,
+  md: 900px,
+  lg: 1200px,
+  xl: 1500px,
+  xxl: 2300px
+);
+$container-max-widths: (
+  sm: 600px,
+  md: 800px,
+  lg: 1100px,
+  xl: 1300px,
+  xxl: 2000px
+);
+
+$accordion-border-color: white;
+$accordion-border-width: 0.15rem;
+
+
+
+$accordion-padding-y: 1.15rem;
+$accordion-border-color: white;
+$accordion-border-width: 0.15rem;
+$accordion-bg: #6B9080;
+$accordion-button-focus-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+$accordion-header: white;
+$accordion-button-focus-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+
+
+#basic-nav-dropdown{
+  color:white
+};
+
+
+@media (max-width: 900px) {
+    .carousel {
+      width:auto;
+      height:auto;
+    }
+}
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
